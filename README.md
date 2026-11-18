@@ -118,6 +118,7 @@ The AI service is included in `src/backend/ai-service/`. The repository structur
 - [`Risk Rules`](docs/Risk_Rules.pdf) — the 17 behavioral risk scenarios and classification criteria (English).
 - [`Risk Rules (Hebrew)`](docs/Risk_Rules_HE.pdf) — Hebrew version of the risk rules.
 - [`Project Presentation`](docs/Project_Presentation.pdf) — project presentation and architectural overview.
+- [`Project Demo Video`](https://www.youtube.com/watch?v=LR4Ud5pgH0E&t=30s) — video demonstration of the system's functionality and key features.
 
 ## Running the Project Locally
 
@@ -191,8 +192,6 @@ npm run test:e2e
 cd src/backend/ai-service
 python -m unittest discover -s tests -t . -v
 ```
-
-These commands are documented from the source files; passing results and external-service connectivity have not been verified here.
 
 ## Project Scope & Future Work
 
